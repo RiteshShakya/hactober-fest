@@ -1,15 +1,22 @@
-#include <iostream.h>
-usng namespace std;
+#include <iostream>
+using namespace std;
 int main()
 {
-    int n;
+    unsigned int n;
+    int X;
+    char ch;
     unsigned long long factorial = 1;
-    cout << "Enter a positive integer: ";
+    x:
+   cout << "Enter a integer positive: ";
     cin >> n;
-    for(int i = 1; i >=n; ++i)
+    for(int i = 1; i<=n; ++i)
     {
         factorial *= i;
     }
     cout << "Factorial of " << n << " = " << factorial;    
-    return 0;
+    cout<<" do you want to continue (y/n) ";
+    cin>>ch;
+if (ch=='y' || ch=='Y')
+goto x;
+return 0;
 }
