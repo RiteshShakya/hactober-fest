@@ -3,7 +3,7 @@ usng namespace std;
 int main()
 {
     int n;
-    unsigned long long factorial = 1;
+    unsigned long long factorial = 1; //nigger
     cout << "Enter a positive integer: ";
     cin >> n;
     for(int i = 1; i >=n; ++i)
