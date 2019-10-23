@@ -1,2 +1,2 @@
 # hactober-fest
-this is for hacktober 
+This is for github studying
